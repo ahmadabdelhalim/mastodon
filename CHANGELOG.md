@@ -3,7 +3,7 @@ Changelog
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
+## [2.6.0] - 2018-10-30
 ### Added
 
 - Add link ownership verification (#8703)
@@ -64,6 +64,7 @@ All notable changes to this project will be documented in this file.
 - Change recommended Ruby version to 2.5.3 (#9003)
 - Change docker-compose default to persist volumes in current directory (#9055)
 - Change character counters on edit profile page to input length limit (#9100)
+- Change "hide boosts from user" function also hiding notifications about boosts (#9147)
 
 ### Deprecated
 
@@ -89,7 +90,7 @@ All notable changes to this project will be documented in this file.
 - Fix some dark emojis not having a white outline (#8597)
 - Fix media description not being displayed in various media modals (#8678)
 - Fix generated URLs of desktop notifications missing base URL (#8758)
-- Fix RTL styles (#8764, #8767, #8823, #8897, #9005, #9007, #9018, #9021)
+- Fix RTL styles (#8764, #8767, #8823, #8897, #9005, #9007, #9018, #9021, #9145, #9146)
 - Fix crash in streaming API when tag param missing (#8955)
 - Fix hotkeys not working when no element is focused (#8998)
 - Fix some hotkeys not working on detailed status view (#9006)
